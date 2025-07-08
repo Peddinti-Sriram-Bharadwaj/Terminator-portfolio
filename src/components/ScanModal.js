@@ -31,7 +31,7 @@ export default function ScanModal({ project, onClose }) {
           <CgClose />
         </button>
 
-        <h2 className="text-xl mb-4">// DETAILED SCAN: {project.title}</h2>
+        <h2 className="text-xl mb-4">{"// DETAILED SCAN: {project.title}"}</h2>
         <div className="border-t border-red-500/50 pt-4 space-y-2 text-sm">
           <p><span className="text-white">TARGET_ID:</span> {project.title.split(' ')[0]}</p>
           <p><span className="text-white">CLASSIFICATION:</span> {tacticalData.classification}</p>

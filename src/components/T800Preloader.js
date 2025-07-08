@@ -52,8 +52,8 @@ export default function T800Preloader({ onComplete }) {
       <div className="data-column left-[25%]" style={{ animationDuration: '10s' }}>{data[1]}</div>
       <div className="data-column right-[25%]" style={{ animationDuration: '7s', animationDirection: 'reverse' }}>{data[2]}</div>
       <div className="data-column right-4" style={{ animationDuration: '12s', animationDirection: 'reverse' }}>{data[3]}</div>
-      <div className="absolute top-4 left-4 text-xs">// PWR: ONLINE</div>
-      <div className="absolute bottom-4 right-4 text-xs">// SYS: COMBAT READY</div>
+      <div className="absolute top-4 left-4 text-xs">{"// PWR: ONLINE"}</div>
+      <div className="absolute bottom-4 right-4 text-xs">{"// SYS: COMBAT READY"}</div>
       
       {/* Central Boot Sequence */}
       <motion.div
