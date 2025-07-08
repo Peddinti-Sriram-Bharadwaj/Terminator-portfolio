@@ -24,3 +24,37 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Custom T-800 Scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e293b; /* A dark slate background */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ef4444; /* The red T-800 color */
+  border-radius: 20px;
+  border: 3px solid #1e293b; /* Creates a border effect */
+}
+
+::-webkit-scrollbar-corner {
+  background: #000;
+}
+
+/* T-800 Targeting Reticle Cursor */
+html {
+  /*
+    This sets the custom cursor. The long string is a URL-encoded SVG 
+    of a red crosshair. We hide the default cursor on links and buttons
+    to ensure our custom cursor is always visible.
+  */
+  cursor: url("data:image/svg+xml,%3csvg width='32' height='32' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M16 0V32M0 16H32' stroke='%23ef4444' stroke-width='2'/%3e%3c/svg%3e") 16 16, auto;
+}
+
+a, button {
+  /* Hides the default pointer cursor on interactive elements */
+  cursor: inherit;
+}

@@ -1,0 +1,77 @@
+{
+  "name": "Peddinti Sri Ram Bharadwaj",
+  "tagline": "ML Systems Engineer | M.Tech CS @ IIIT Bangalore | MLOps & Distributed AI",
+  "email": "PeddintiSri.Ram@iiitb.ac.in",
+  "socials": {
+    "linkedin": "https://www.linkedin.com/in/sriram-bharadwaj-p/",
+    "github": "https://github.com/Peddinti-Sriram-Bharadwaj",
+    "kaggle": "https://www.kaggle.com/srirambp"
+  },
+  "about": "As an ML Systems Engineer, I thrive on bridging the gap between cutting-edge AI research and robust, scalable production systems. My passion lies in architecting the complete end-to-end lifecycle of machine learning applications, from data curation and model fine-tuning to building autonomous MLOps pipelines for deployment, monitoring, and continuous improvement on distributed infrastructure.",
+  "projects": [
+    {
+      "title": "BanditSim: Autonomous MLOps Pipeline for Distributed RL",
+      "description": "Architected and built a 5-microservice distributed system to simulate a K-Armed Bandit problem, featuring a closed-loop MLOps cycle for autonomous drift detection and re-learning.",
+      "stack": ["Python", "Kubernetes", "Docker", "FastAPI", "Reinforcement Learning", "MLOps"],
+      "githubUrl": "https://github.com/Peddinti-Sriram-Bharadwaj/banditSim"
+    },
+    {
+      "title": "QnAOps: End-to-End Production Platform for a QA System",
+      "description": "Orchestrated a fault-tolerant, horizontally-scalable platform for a QA service, taking full ownership of the system architecture, CI/CD automation, and infrastructure provisioning.",
+      "stack": ["Kubernetes", "Docker", "Jenkins", "CI/CD", "FastAPI", "ELK Stack", "Ansible"],
+      "githubUrl": "https://github.com/Peddinti-Sriram-Bharadwaj/QnaOps"
+    },
+    {
+      "title": "The LoRA Effect: Parameter-Efficient VQA Model Tuning",
+      "description": "Increased a VQA model's accuracy by 13% through parameter-efficient fine-tuning (PEFT) with LoRA after spearheading the data curation phase to resolve a severe 44% class imbalance.",
+      "stack": ["PyTorch", "Fine-Tuning", "LoRA", "Data Curation", "VQA", "Pandas"],
+      "githubUrl": "https://github.com/dyinghorizon/VR_Project1_Nishad_MT2024102"
+    },
+    {
+      "title": "Click Rate Analysis: Fairness and Bias in Ad Data",
+      "description": "Conducted a novel fairness audit on a 1M-row ad dataset by comparing principal components of user data across demographic groups to validate demographic parity.",
+      "stack": ["Python", "Scikit-learn", "Pandas", "Fairness in ML", "EDA", "PCA"],
+      "githubUrl": "https://docs.google.com/document/d/1n6cipmRXBqXyVaXeTBN-RX_RwzBUavGoD4grAEKqO54/edit?usp=sharing"
+    },
+     {
+      "title": "Transfer Learning Evaluation: A Study on CNNs",
+      "description": "Led a four-person team in a rigorous empirical study evaluating the sensitivity of 5+ major CNNs to multi-stage domain adaptation, architecting a modular TensorFlow pipeline for the analysis.",
+      "stack": ["TensorFlow", "Keras", "CNNs", "Transfer Learning", "Python"],
+      "githubUrl": "https://docs.google.com/document/d/1T5kjf7obMVi92E9IycUYAWe30DT3j3t93liXaIAqJcM/edit?usp=sharing"
+    },
+    {
+      "title": "Cashflow: Secure Financial Management System in C",
+      "description": "Engineered a secure, multi-tiered financial application from scratch in C, leveraging POSIX threads for concurrency and re-architecting the network layer to use TCP for data integrity.",
+      "stack": ["C", "Systems Programming", "POSIX Threads", "TCP/IP", "Security"],
+      "githubUrl": "https://github.com/Peddinti-Sriram-Bharadwaj/CashFlow"
+    }
+  ],
+  "readingList": [
+    {
+      "title": "Think and Grow Rich",
+      "author": "Napolean Hill"
+    }
+  ],
+  "skills": [
+    "Python",
+    "C",
+    "C++",
+    "PyTorch",
+    "TensorFlow",
+    "Kubernetes",
+    "Docker",
+    "Jenkins",
+    "CI/CD",
+    "MLOps",
+    "Distributed Systems",
+    "System Design",
+    "Reinforcement Learning",
+    "Fine-Tuning",
+    "FastAPI",
+    "Redis",
+    "PostgreSQL",
+    "ELK Stack",
+    "Ansible",
+    "Git"
+  ]
+}
